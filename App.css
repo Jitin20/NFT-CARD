@@ -1,0 +1,126 @@
+.container{
+  position: relative;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card-image{
+  position: relative;
+  top: 0.5rem;
+}
+
+.card {
+  margin-top: 100px;
+  padding: 0;
+  height: 36rem;
+  width: 350px;
+  border-radius: 25px;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: 0 0 ;
+}
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em .5em;
+  width: 100%;
+
+}
+.card-img {
+  display: block;
+  border-radius: 30px;
+  padding: 0.5em;
+  margin: 0 auto;
+  width: 90%;
+}
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0.7em;
+  margin-top: -4.6rem;
+  font-size: 24px;
+  color: hsl(215, 51%, 70%);
+  align-items: center;
+  margin-bottom: 2px;
+}
+.title
+{
+  font-size: 31px;
+    padding: 0 0.6em;
+    margin-top: -1.6rem;
+  color:   hsl(0, 0%, 100%);
+  margin-bottom: -5 rem; 
+}
+.title:hover, .name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.card-overlay{
+  
+  position: absolute;
+  top: 0.5rem;
+  left: 1.1em;
+  bottom: 0;
+  right: 2px;
+  margin-bottom: 7px;
+  width: 90%;
+  border-radius: 25px;
+  background-color: hsl(178, 100%, 50%,0.7);
+  background-image: url("https://raw.githubusercontent.com/bobbe86/NFTpreviewCard/0cf42bf444edae013d38f3ee1a3ea4e54d3198c2/images/icon-view.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+}
+
+.card-overlay:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.author {
+  width: 40px;
+  margin: 0;
+  padding: 0;
+  border-radius: 50px;
+  border: 1px solid var(--main-white);
+}
+.created{
+  padding: 1rem;
+  font-size: 25px;
+}
+
+.span {
+  color:   hsl(0, 0%, 100%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.footer {
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+  padding: 0.6rem 1rem;
+}
+.cyan {
+  color: hsl(178, 100%, 50%);
+}
+.icon {
+  margin-right: 10px;
+  padding: 0;
+  float: left;
+}
+.border-bottom {
+  width: 90%;
+  margin: -6 auto;
+  font-size: 20px;
+  margin-top: -2rem;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  padding: 0px;
+}
